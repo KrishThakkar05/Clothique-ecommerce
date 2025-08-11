@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - CLOTHIQUE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        .text-center {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container py-5">
+        <h1 class="text-center mb-5">Our sweatshirt</h1>
+        <div class="row g-4">
+            <!-- Product 1 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <img src="img/pro6.jpeg" class="card-img-top" alt="Classic White T-Shirt">
+                    <div class="card-body">
+                        <h5 class="card-title">Playpunk Men's Graphic Hoodie</h5>
+                        <p class="card-text">₹1899</p>
+                        <!-- Button to trigger the modal -->
+                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#productModal1">View
+                            Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="productModal1" tabindex="-1" aria-labelledby="productModal1Label"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="productModal1Label">Playpunk Men's Graphic Hoodie</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/pro6.jpeg" class="img-fluid mb-3" alt="Playpunk Men's Graphic Hoodie">
+                            <p><strong>Price:</strong> ₹1899</p>
+                            <p><strong>Description:</strong> A stylish and comfortable graphic hoodie perfect for casual
+                                outings or cozy nights in.</p>
+                            <p><strong>Material:</strong> 100% Cotton</p>
+                            <p><strong>Sizes Available:</strong> S, M, L, XL</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Buy Now</button>
+                            <button type="button" class="btn btn-primary">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <img src="img/pro7.jpeg" class="card-img-top" alt="Slim Fit Denim Jeans">
+                    <div class="card-body">
+                        <h5 class="card-title">Scary Halloween Skeleton Acid Wash Hooded Sweatshirt</h5>
+                        <p class="card-text">₹1599</p>
+                        <!-- Button to trigger the modal -->
+                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#productModal2">View
+                            Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="productModal2" tabindex="-1" aria-labelledby="productModal2Label"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="productModal2Label">Scary Halloween Skeleton Acid Wash Hooded
+                                Sweatshirt</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/pro7.jpeg" class="img-fluid mb-3"
+                                alt="Scary Halloween Skeleton Acid Wash Hooded Sweatshirt">
+                            <p><strong>Price:</strong> ₹1599</p>
+                            <p><strong>Description:</strong> Stand out this Halloween with this edgy acid-wash hooded
+                                sweatshirt featuring a skeleton design. Perfect for casual outings and spooky vibes.</p>
+                            <p><strong>Material:</strong> Premium Polyester Blend</p>
+                            <p><strong>Sizes Available:</strong> S, M, L, XL</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Buy Now</button>
+                            <button type="button" class="btn btn-primary">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <img src="img/pro8.jpeg" class="card-img-top" alt="Quarter-Zip Varsity Sweatshirt">
+                    <div class="card-body">
+                        <h5 class="card-title">Quarter-Zip Varsity Sweatshirt</h5>
+                        <p class="card-text">₹999</p>
+                        <!-- Button to trigger the modal -->
+                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#productModal3">View
+                            Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Product 3 -->
+            <div class="modal fade" id="productModal3" tabindex="-1" aria-labelledby="productModal3Label"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="productModal3Label">Quarter-Zip Varsity Sweatshirt</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/pro8.jpeg" class="img-fluid mb-3" alt="Quarter-Zip Varsity Sweatshirt">
+                            <p><strong>Price:</strong> ₹999</p>
+                            <p><strong>Description:</strong> This versatile quarter-zip varsity sweatshirt is perfect
+                                for both casual and sporty looks. Its lightweight material keeps you comfortable
+                                throughout the day.</p>
+                            <p><strong>Material:</strong> Cotton-Polyester Blend</p>
+                            <p><strong>Sizes Available:</strong> S, M, L, XL</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Buy Now</button>
+                            <button type="button" class="btn btn-primary">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <img src="img/pro9.jpeg" class="card-img-top" alt="Dragon Ball Z Goku Hoodie">
+                    <div class="card-body">
+                        <h5 class="card-title">Dragon Ball Z Goku Hoodie</h5>
+                        <p class="card-text">₹1299</p>
+                        <!-- Button to trigger the modal -->
+                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#productModal4">View
+                            Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Product 4 -->
+            <div class="modal fade" id="productModal4" tabindex="-1" aria-labelledby="productModal4Label"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="productModal4Label">Dragon Ball Z Goku Hoodie</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/pro9.jpeg" class="img-fluid mb-3" alt="Dragon Ball Z Goku Hoodie">
+                            <p><strong>Price:</strong> ₹1299</p>
+                            <p><strong>Description:</strong> Channel your inner Saiyan with this Dragon Ball Z Goku
+                                hoodie. Featuring vibrant graphics and a comfortable fit, it’s a must-have for fans of
+                                the iconic anime series.</p>
+                            <p><strong>Material:</strong> Premium Cotton</p>
+                            <p><strong>Sizes Available:</strong> S, M, L, XL</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Buy Now</button>
+                            <button type="button" class="btn btn-primary">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 5 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <img src="img/pro10.jpeg" class="card-img-top" alt="Zohakuten Men's Oversized T-shirt">
+                    <div class="card-body">
+                        <h5 class="card-title">Zohakuten Men's Oversized T-shirt</h5>
+                        <p class="card-text">₹899</p>
+                        <!-- Button to trigger the modal -->
+                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#productModal5">View
+                            Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Product 5 -->
+            <div class="modal fade" id="productModal5" tabindex="-1" aria-labelledby="productModal5Label"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="productModal5Label">Zohakuten Men's Oversized T-shirt</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/pro10.jpeg" class="img-fluid mb-3" alt="Zohakuten Men's Oversized T-shirt">
+                            <p><strong>Price:</strong> ₹899</p>
+                            <p><strong>Description:</strong> Stay stylish with this Zohakuten oversized T-shirt. Crafted
+                                with soft and breathable fabric, it ensures comfort and a trendy look.</p>
+                            <p><strong>Material:</strong> 100% Cotton</p>
+                            <p><strong>Sizes Available:</strong> S, M, L, XL</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Buy Now</button>
+                            <button type="button" class="btn btn-primary">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <img src="img/swea6.jpeg" class="card-img-top" alt="Katana Dragon Oversized T-shirt">
+                    <div class="card-body">
+                        <h5 class="card-title">Katana Dragon Oversized T-shirt</h5>
+                        <p class="card-text">₹1099</p>
+                        <!-- Button to trigger the modal -->
+                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#productModal6">View
+                            Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Product 6 -->
+            <div class="modal fade" id="productModal6" tabindex="-1" aria-labelledby="productModal6Label"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="productModal6Label">Katana Dragon Oversized T-shirt</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/swea6.jpeg" class="img-fluid mb-3" alt="Katana Dragon Oversized T-shirt">
+                            <p><strong>Price:</strong> ₹1099</p>
+                            <p><strong>Description:</strong> Elevate your streetwear game with the Katana Dragon
+                                oversized T-shirt. Featuring a bold design and premium materials, it’s a perfect blend
+                                of comfort and style.</p>
+                            <p><strong>Material:</strong> 100% Cotton</p>
+                            <p><strong>Sizes Available:</strong> S, M, L, XL</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Buy Now</button>
+                            <button type="button" class="btn btn-primary">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 7 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <img src="img/swea7.jpeg" class="card-img-top" alt="Skeleton Soldier Men's Design">
+                    <div class="card-body">
+                        <h5 class="card-title">Skeleton Soldier Men's Design</h5>
+                        <p class="card-text">₹699</p>
+                        <!-- Button to trigger the modal -->
+                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#productModal7">View
+                            Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Product 7 -->
+            <div class="modal fade" id="productModal7" tabindex="-1" aria-labelledby="productModal7Label"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="productModal7Label">Skeleton Soldier Men's Design</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/swea7.jpeg" class="img-fluid mb-3" alt="Skeleton Soldier Men's Design">
+                            <p><strong>Price:</strong> ₹699</p>
+                            <p><strong>Description:</strong> Unleash the edgy vibes with this Skeleton Soldier T-shirt.
+                                Perfect for those who love bold and unique designs.</p>
+                            <p><strong>Material:</strong> 100% Cotton</p>
+                            <p><strong>Sizes Available:</strong> S, M, L, XL</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Buy Now</button>
+                            <button type="button" class="btn btn-primary">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <img src="img/swea8.jpeg" class="card-img-top" alt="Classic Backprint T-Shirt">
+                    <div class="card-body">
+                        <h5 class="card-title">Classic Backprint T-Shirt</h5>
+                        <p class="card-text">₹599</p>
+                        <!-- Button to trigger the modal -->
+                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#productModal8">View
+                            Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Product 8 -->
+            <div class="modal fade" id="productModal8" tabindex="-1" aria-labelledby="productModal8Label"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="productModal8Label">Classic Backprint T-Shirt</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/swea8.jpeg" class="img-fluid mb-3" alt="Classic Backprint T-Shirt">
+                            <p><strong>Price:</strong> ₹599</p>
+                            <p><strong>Description:</strong> Simple yet stylish, this Classic Backprint T-shirt is a
+                                wardrobe essential for casual outings.</p>
+                            <p><strong>Material:</strong> 100% Cotton</p>
+                            <p><strong>Sizes Available:</strong> S, M, L, XL</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Buy Now</button>
+                            <button type="button" class="btn btn-primary">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 9 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <img src="img/pro5.jpeg" class="card-img-top" alt="Classic Backprint T-Shirt">
+                    <div class="card-body">
+                        <h5 class="card-title">Classic Backprint T-Shirt</h5>
+                        <p class="card-text">₹599</p>
+                        <!-- Button to trigger the modal -->
+                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#productModal9">View
+                            Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Product 9 -->
+            <div class="modal fade" id="productModal9" tabindex="-1" aria-labelledby="productModal9Label"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="productModal9Label">Classic Backprint T-Shirt</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/pro5.jpeg" class="img-fluid mb-3" alt="Classic Backprint T-Shirt">
+                            <p><strong>Price:</strong> ₹599</p>
+                            <p><strong>Description:</strong> This timeless Classic Backprint T-shirt combines minimal
+                                design with ultimate comfort.</p>
+                            <p><strong>Material:</strong> 100% Cotton</p>
+                            <p><strong>Sizes Available:</strong> S, M, L, XL</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Buy Now</button>
+                            <button type="button" class="btn btn-primary">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <!-- Column 1: Brand Info -->
+            <div class="footer-column">
+                <h5>CLOTHIQUE</h5>
+                <p>Your ultimate destination for modern fashion trends. Redefine your wardrobe with exclusive styles that make a statement.</p>
+            </div>
+    
+            <!-- Column 2: Quick Links -->
+            <div class="footer-column">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+    
+            <!-- Column 3: Contact Info -->
+            <div class="footer-column">
+                <h5>Contact Info</h5>
+                <p>
+                    123 Fashion Street<br>
+                    Style City, SC 12345<br>
+                    Phone: (555) 123-4567<br>
+                    Email: info@clothique.com
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" target="_blank" title="Facebook">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" title="Instagram">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" title="Twitter">
+                        <img src="data:image/png;base64,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" alt="Twitter Logo">
+                    </a>
+                    <a href="https://www.pinterest.com/" target="_blank" title="Pinterest">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" alt="Pinterest Logo">
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            &copy; 2025 CLOTHIQUE. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+
+</html>

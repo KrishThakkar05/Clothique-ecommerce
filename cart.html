@@ -1,0 +1,191 @@
+<!DOCTYPE html <boltAction type="file" filePath="cart.html">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - CLOTHIQUE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <img src="img/logo1.jpeg" alt="CLOTHIQUE Logo" class="nav-logo"> CLOTHIQUE
+            </a>
+            <a class="navbar-brand fw-bold" href="index.html"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Cart Content -->
+    <div class="container py-5">
+        <h1 class="mb-5">Shopping Cart</h1>
+
+        <!-- Cart Items -->
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- Cart Item 1 -->
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-2">
+                                <img src="img/k5.jpeg" class="img-fluid rounded" alt="Classic White T-Shirt">
+                            </div>
+                            <div class="col-md-4">
+                                <h5 class="card-title">Classic White T-Shirt</h5>
+                                <p class="text-muted">Size: M | Color: White</p>
+                            </div>
+                            <div class="col-md-2">
+                                <input type="number" class="form-control" value="1" min="1">
+                            </div>
+                            <div class="col-md-2">
+                                <p class="h5">$29.99</p>
+                            </div>
+                            <div class="col-md-2">
+                                <button class="btn btn-outline-danger">Remove</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cart Item 2 -->
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-2">
+                                <img src="img/pro1.jpeg" class="img-fluid rounded" alt="Slim Fit Denim Jeans">
+                            </div>
+                            <div class="col-md-4">
+                                <h5 class="card-title">Slim Fit Denim Jeans</h5>
+                                <p class="text-muted">Size: 32 | Color: Blue</p>
+                            </div>
+                            <div class="col-md-2">
+                                <input type="number" class="form-control" value="1" min="1">
+                            </div>
+                            <div class="col-md-2">
+                                <p class="h5">$79.99</p>
+                            </div>
+                            <div class="col-md-2">
+                                <button class="btn btn-outline-danger">Remove</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Order Summary -->
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title mb-4">Order Summary</h5>
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>Subtotal</span>
+                            <span>$109.98</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>Shipping</span>
+                            <span>$5.00</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>Tax</span>
+                            <span>$11.00</span>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between mb-4">
+                            <span class="h5">Total</span>
+                            <span class="h5">$125.98</span>
+                        </div>
+                        <button class="btn btn-dark w-100">Proceed to Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <!-- Column 1: Brand Info -->
+            <div class="footer-column">
+                <h5>CLOTHIQUE</h5>
+                <p>Your ultimate destination for modern fashion trends. Redefine your wardrobe with exclusive styles
+                    that make a statement.</p>
+            </div>
+
+            <!-- Column 2: Quick Links -->
+            <div class="footer-column">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Product</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+            </div>
+
+            <!-- Column 3: Contact Info -->
+            <div class="footer-column">
+                <h5>Contact Info</h5>
+                <p>
+                    123 Fashion Street<br>
+                    Style City, SC 12345<br>
+                    Phone: (555) 123-4567<br>
+                    Email: info@clothique.com
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" target="_blank" title="Facebook">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+                            alt="Facebook Logo">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" title="Instagram">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                            alt="Instagram Logo">
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" title="Twitter">
+                        <img src="data:image/png;base64,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"
+                            alt="Twitter Logo">
+                    </a>
+                    <a href="https://www.pinterest.com/" target="_blank" title="Pinterest">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png"
+                            alt="Pinterest Logo">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            &copy; 2025 CLOTHIQUE. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
